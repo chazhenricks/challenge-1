@@ -16,5 +16,5 @@ range.addEventListener("input", function (rangeValue){
 
 
 number.addEventListener("input", function (numberValue){
-  number.value=numberValue.target.value;
+  range.value=numberValue.target.value;
 });
